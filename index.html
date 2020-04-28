@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- nhúng khôi phục thuộc tính css về 0 ( reset css) thường là để phía trên để sau này dễ phát triển link css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--font tu google-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    
+</head>
+
+<body>
+    <!--Block Element Modifier-->
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">Store Andy
+                            <!--Header QR code-->
+                            <div class="header__qr">
+                                <img src="./assets/img/f8.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                   <a href="" class="header__qr-link">
+                                    <img src="./assets/img/chplay.png" alt="CH play" class="header__qr-download-img">
+                                   </a>
+                                   <a href="" class="header__qr-link">
+                                    <img src="./assets/img/appstore.png" alt="App store" class="header__qr-download-img">
+                                   </a>
+                                     
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item ">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span> 
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>
+                                Thông Báo</a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Thong Boa moi nhan</h3>
+                                    </header>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="" alt="Ảnh chỗ này" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mypham chinh hang</span>
+                                                    <span class="header__notify-descrition">Mo ta my pham</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fas fa-hands-helping"></i>
+                                Trợ giúp</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng Ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng Nhập</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+
+        </div>
+        <footer class="footer">
+
+        </footer>
+   </div>
+</body>
+</html>
